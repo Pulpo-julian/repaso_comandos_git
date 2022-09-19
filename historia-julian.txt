@@ -7,3 +7,38 @@ hoy practico git
 en camara soy alto pero la verdad soy bajo
 
 hoy es lunes
+
+comandos de git:
+
+-- se inicia git
+git init
+
+-- comando para mirar el estado de git (ver que archivos han sido modificados)
+git status
+
+-- para agregar archivos al staging (en ram)
+git add [nombreDelArchivo.txt]
+git add . (para agregar todos los archivos)
+
+-- para quitar un archivo despues de hacer git add
+git rm --cached [nombreDelArchivo.txt]
+
+-- para agregar los cambios al repositorio (master)
+git commit -m "mensaje del commit"
+
+-- para mirar los commits dentro del repositorio
+git log 
+git log [nombreDelArchivo.txt]
+
+-- para mirar los cambios de un archivo con lineas detalladas
+git show
+git show [nombreDelArchivo.txt]
+
+-- para mostrar la configuracion de git
+git config --list
+
+-- se muestra los archivos de configuracion de git
+git config --list --show-origin
+
+-- para mirar la diferencia entre dos versiones del mismo archivo
+git diff [codigo del commit mas viejo] [codigo del commit mas reciente]
