@@ -1,5 +1,5 @@
-hola soy julian
+hola soy andres
 
-estoy estudiando y
+estoy trabajando y
 
 hoy practico git
