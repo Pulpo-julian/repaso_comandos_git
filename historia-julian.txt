@@ -42,3 +42,5 @@ git config --list --show-origin
 
 -- para mirar la diferencia entre dos versiones del mismo archivo
 git diff [codigo del commit mas viejo] [codigo del commit mas reciente]
+
+vuelvo a repasar despues de salir de estudiar
